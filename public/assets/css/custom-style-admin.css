@@ -1,0 +1,102 @@
+/*your custom css goes here*/
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap');
+
+
+
+body{
+    font-family: 'Almarai', sans-serif !important;
+    font-weight: 400 !important;
+}
+
+.aiz-side-nav-logo-wrap,.aiz-side-nav-wrap ,.aiz-sidebar {
+
+    /* background-color:var(--primary) !important; */
+    background-color: #242526 !important;
+}
+.aiz-side-nav-wrap .active,.aiz-side-nav-wrap .aiz-side-nav-link:hover, .level-2-active{
+    /* background-color:var(--hov-primary) !important; */
+    background-color: #2C9B4B !important;
+}
+.aiz-side-nav-list .aiz-side-nav-link, .aiz-side-nav-list .aiz-side-nav-icon{
+    color: #a2a3b7 !important;
+}
+.aiz-side-nav-list .aiz-side-nav-link:hover .aiz-side-nav-icon, .aiz-side-nav-list .aiz-side-nav-link.active, .aiz-side-nav-list .aiz-side-nav-link:hover, .aiz-side-nav-list .aiz-side-nav-link.active .aiz-side-nav-icon{
+    color: #fff !important;
+}
+.btn-primary,
+.btn-soft-primary:hover,
+.btn-outline-primary:hover {
+    background-color: #878787 !important;
+    border-color:  #878787 !important;
+    color: var(--white);
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.disabled,
+.btn-primary:disabled,
+.btn-primary:not(:disabled):not(.disabled).active,
+.btn-primary:not(:disabled):not(.disabled):active,
+.show > .btn-primary.dropdown-toggle,
+.btn-outline-primary:not(:disabled):not(.disabled).active,
+.btn-outline-primary:not(:disabled):not(.disabled):active,
+.show > .btn-outline-primary.dropdown-toggle,.btn-info,
+.btn-soft-info:hover,
+.btn-outline-info:hover {
+    background-color:  #242526 !important;
+    border-color:  #242526 !important;
+}
+.dropdown-item.active, .dropdown-item:hover, .dropdown-item:active{
+background-color:  #242526 !important;
+}
+.btn-success,
+.btn-soft-success:hover,
+.btn-outline-success:hover {
+    background-color: #242526 !important;
+    border-color: #353539 !important;
+    color: var(--white);
+}
+/*.bg-grad-1 {*/
+/*    background-color: #25282A !important;*/
+/*    background-image: linear-gradient(315deg, #25282A 0%, #2C4031 74%) !important;*/
+/*}*/
+
+/*.bg-grad-2 {*/
+/*    background-color: #353539 !important;*/
+/*    background-image: linear-gradient(315deg, #3f4c6b 0%, #606c88 74%) !important;*/
+/*}*/
+
+/*.bg-grad-3 {*/
+/*    background-color: #25282A !important;*/
+/*    background-image: linear-gradient(315deg, #25282A 0%, #3C714B 74%) !important;*/
+/*}*/
+
+/*.bg-grad-4 {*/
+/*    background-color: #25282A !important;*/
+/*    background-image: linear-gradient(315deg, #25282A 0%, #4A54B6 74%) !important;*/
+/*}*/
+.bg-grad-1 {
+    background-color: #25282A !important;
+    background-image: linear-gradient(315deg, #3A4977 0%, #A03986 74%) !important;
+}
+
+.bg-grad-2 {
+    background-color: #353539 !important;
+    background-image: linear-gradient(315deg, #0E461E 0%, #2C9B4B 74%) !important;
+}
+
+.bg-grad-3 {
+    background-color: #25282A !important;
+    background-image: linear-gradient(315deg, #3A4977 0%, #3A4977 74%) !important;
+}
+
+.bg-grad-4 {
+    background-color: #25282A !important;
+    background-image: linear-gradient(315deg, #085057 0%, #1ea1ae 74%) !important;
+}
+.alert{
+    background-color: #eaecef!important;
+}
+.badge-info{
+    background-color: #353539!important;
+}
